@@ -1,5 +1,5 @@
 <template>
-	<v-app-bar class="px-6" color="indigo" dark app>
+	<v-app-bar class="px-6" color="pink darken-2" dark app>
 		<v-toolbar-title>
 			<router-link class="home-link" to="/">
 				{{ $t('app.title') }}
