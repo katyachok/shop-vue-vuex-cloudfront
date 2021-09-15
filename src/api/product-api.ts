@@ -6,7 +6,7 @@ import { Product } from '@/models/product';
 const fetchAvailableProducts = async (): Promise<Product[]> => {
 	return axios
 		.get(`${API_PATHS.products}/products`)
-		.then(res => res.data.rows)
+		.then(res => res.data)
 		.catch(e => {
 			console.error(e);
 			// << !!! mocks if any error !!!
